@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         mTourButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            Intent intent = new Intent(MainActivity.this, BiographyActivity.class);
+            Intent intent = new Intent(MainActivity.this, TourActivity.class);
             startActivity(intent);
             }
         });

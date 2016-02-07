@@ -5,4 +5,14 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="tourText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_below">@+id/titleText</item>
+        <item name="android:layout_alignLeft">@+id/tourImage</item>
+        <item name="android:layout_alignStart">@+id/tourImage</item>
+        <item name="android:layout_marginTop">66dp</item>
+    </style>
+
 </resources>

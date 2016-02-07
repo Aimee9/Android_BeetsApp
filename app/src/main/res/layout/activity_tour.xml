@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9dc249"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tour Dates"
+        android:id="@+id/titleText"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="The Killer Tofu Tour of &apos;96 was a great success!  Stay tuned for announcements of the next tour!"
+        android:id="@+id/infoText"
+        style="@style/tourText"
+        android:layout_marginTop="87dp"
+        android:layout_below="@+id/titleText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tourImage"
+        android:src="@drawable/band"
+        android:layout_below="@+id/infoText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp" />
+
+</RelativeLayout>

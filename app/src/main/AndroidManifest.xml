@@ -40,6 +40,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.epicodus.beetsbandapp.UI.DiscographyActivity" />
         </activity>
+        <activity
+            android:name=".UI.TourActivity"
+            android:label="@string/title_activity_tour"
+            android:parentActivityName=".UI.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.beetsbandapp.UI.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -55,8 +55,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
         android:layout_below="@+id/instrumentLabel"
-        android:layout_alignLeft="@+id/nextMemberButton"
-        android:layout_alignStart="@+id/nextMemberButton">
+        android:layout_centerHorizontal="true">
 
         <TextView
             android:layout_width="match_parent"
