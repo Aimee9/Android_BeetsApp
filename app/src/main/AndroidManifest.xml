@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.epicodus.beetsbandapp" >
+    package="com.epicodus.beetsbandapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".UI.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +21,7 @@
         <activity
             android:name=".UI.BiographyActivity"
             android:label="@string/title_activity_biography"
-            android:parentActivityName=".UI.MainActivity" >
+            android:parentActivityName=".UI.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.epicodus.beetsbandapp.UI.MainActivity" />
@@ -27,7 +29,7 @@
         <activity
             android:name=".UI.DiscographyActivity"
             android:label="@string/title_activity_discography"
-            android:parentActivityName=".UI.MainActivity" >
+            android:parentActivityName=".UI.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.epicodus.beetsbandapp.UI.MainActivity" />
@@ -35,7 +37,7 @@
         <activity
             android:name=".UI.SongActivity"
             android:label="@string/title_activity_song"
-            android:parentActivityName=".UI.DiscographyActivity" >
+            android:parentActivityName=".UI.DiscographyActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.epicodus.beetsbandapp.UI.DiscographyActivity" />
@@ -43,7 +45,15 @@
         <activity
             android:name=".UI.TourActivity"
             android:label="@string/title_activity_tour"
-            android:parentActivityName=".UI.MainActivity" >
+            android:parentActivityName=".UI.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.beetsbandapp.UI.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UI.ListenActivity"
+            android:label="@string/title_activity_listen"
+            android:parentActivityName=".UI.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.epicodus.beetsbandapp.UI.MainActivity" />

@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         mListenButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-            Intent intent = new Intent(MainActivity.this, BiographyActivity.class);
+            Intent intent = new Intent(MainActivity.this, ListenActivity.class);
             startActivity(intent);
             }
         });
